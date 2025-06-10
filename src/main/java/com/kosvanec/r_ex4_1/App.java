@@ -72,9 +72,4 @@ public class App {
         }
         return longestLine;
     }
-    /**
-     * Named constant for the file to read.
-     * This can be used as a default value or for testing purposes.
-     */
-    public static final String TEST__FILE_TO_READ = "Hamlet.txt";
 }
