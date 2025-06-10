@@ -19,8 +19,6 @@ public class App {
         String prompt = "Input file: ";
         Scanner sysin = new Scanner(System.in);
         BufferedReader rd = openFileReader(sysin, prompt);
-        // print the class of rd
-        System.out.println(rd.getClass());
         String theLongestLine = "";
         theLongestLine = longestLine(rd);
         System.out.println("Longest line: " + theLongestLine);
