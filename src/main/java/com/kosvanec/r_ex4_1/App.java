@@ -26,6 +26,10 @@ public class App {
     /**
      * Asks the user for the file name, opens it for reading, and then returns
      * a BufferedReader for that file.
+     * -----
+     * Users have to enter complete path and file name like this:
+     * /home/petr/code/J_R_2/r_ex4_1/src/main/java/com/kosvanec/r_ex4_1/Hamlet.txt, or
+     * C:\Users\petr\Documents\Hamlet.txt on Windows.
      * @param sysin Scanner for user input
      * @param prompt Prompt to display to the user
      * @return A BufferedReader for the specified file
